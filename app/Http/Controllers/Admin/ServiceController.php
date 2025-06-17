@@ -98,7 +98,7 @@ class ServiceController extends Controller
 
     public function show($id)
     {
-        return abort(404); // or redirect()->back();
+        return abort(404); 
     }
 
 
